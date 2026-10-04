@@ -1,0 +1,6 @@
+<resources>
+    <style name="Theme.QuickDrop" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">#2563EB</item>
+        <item name="colorAccent">#2563EB</item>
+    </style>
+</resources>
