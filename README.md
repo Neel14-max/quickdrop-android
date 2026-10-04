@@ -1,17 +1,9 @@
-# QuickDrop Android app
+# QuickDrop
+Fast, encrypted phone <-> laptop file transfer over your phone hotspot. No internet, no cloud.
 
-## Get the APK (no Android Studio needed)
-1. Create a free GitHub account and a new repository.
-2. Upload ALL files of this folder (keep the `.github` folder).
-3. Open the repo -> Actions tab -> "Build APK" -> wait ~4 minutes.
-4. Open the finished run -> download artifact "QuickDrop-apk" -> unzip -> app-debug.apk.
-5. Copy to the phone, open it, allow "install unknown apps" when asked.
+Built automatically by GitHub (Actions tab -> latest run -> Artifacts):
+- QuickDrop-Android-apk  -> app-debug.apk   (install on phone)
+- QuickDrop-Windows-exe  -> QuickDrop.exe   (double-click on laptop)
 
-## Or build locally
-Open this folder in Android Studio and press Run (or Build > Build APK).
-
-## Use
-Laptop: pip install cryptography qrcode ; python quickdrop.py
-Phone: open QuickDrop -> Scan QR code.
-Received files on laptop: ./received   |   Files for phone: ./share
-Files from laptop are saved on phone in Downloads/QuickDrop.
+Use: phone hotspot ON -> connect PC to it -> open QuickDrop.exe -> open phone app -> Scan QR code.
+PC files: Documents-folder-independent: C:\Users\<you>\QuickDrop\Received and \Share
